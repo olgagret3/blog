@@ -19,11 +19,13 @@
     "pg": "^7.4.3",
     "swig": "^1.4.2"
   },
+
   "devDependencies": {
     "chai": "4.1.1",
     "chai-http": "^4.2.0",
     "mocha": "3.5.0"
   },
+
   "keywords": [],
   "author": "Olga Gretchenko",
   "license": "ISC"
