@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="public/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <title>BLOG</title>
+</head>
+
+<body>
+    <div class="main-container-blocks">
+        <div class="btn">
+            <button id="addArticle">Добавить запись</button>
+        </div>
+        <div class="information-big-img">
+
+        </div>
+        <div id="window">
+            <textarea id="title" cols="40" rows="5" placeholder="Title"></textarea>
+            <textarea id="main_text" cols="40" rows="10" placeholder="Main text"></textarea>
+            <input type="file" id="photo" accept="image/*" size="40px" onchange="uploadImage(this.files[0])" placeholder="Image">
+            <div class="bottom_btn">
+                <button type="submit" id="save">Сохранить</button>
+                <button id="cancel">Отмена</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script type="text/javascript" src="public/js/client.js"></script>
+</html>

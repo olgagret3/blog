@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.main-container-blocks .btn button {
+  padding: 6px;
+  border-radius: 7px;
+  background: #3BAFBE;
+  color: #FFFFFF;
+  margin: 3% 0 0 87%; }
+.main-container-blocks .information-big-img {
+  grid-area: information-big-img;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .main-container-blocks .information-big-img .title-3-images {
+    flex-basis: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    height: 400px; }
+    .main-container-blocks .information-big-img .title-3-images .your-title {
+      font-weight: lighter;
+      font-family: Georgia;
+      color: black; }
+    .main-container-blocks .information-big-img .title-3-images img {
+      width: 300px;
+      height: 160px; }
+    .main-container-blocks .information-big-img .title-3-images p {
+      font-weight: lighter;
+      font-family: Georgia;
+      font-style: italic;
+      color: #999999;
+      margin-top: 30px; }
+    .main-container-blocks .information-big-img .title-3-images button {
+      padding: 6px;
+      border-radius: 7px;
+      background: #3BAFBE;
+      color: #FFFFFF;
+      margin-top: 20px; }
+.main-container-blocks #window {
+  display: none;
+  border: solid 1px black;
+  border-radius: 20px;
+  width: 350px;
+  height: 400px;
+  margin-left: 35%;
+  margin-top: -30%;
+  background: gray;
+  position: absolute; }
+  .main-container-blocks #window #title {
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 15px;
+    resize: none;
+    font-size: 12px; }
+  .main-container-blocks #window #main_text {
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 15px;
+    resize: none;
+    font-size: 12px; }
+  .main-container-blocks #window #photo {
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 15px;
+    resize: none;
+    font-size: 12px; }
+  .main-container-blocks #window .bottom_btn button {
+    padding: 10px;
+    border-radius: 7px;
+    background: #3BAFBE;
+    color: #FFFFFF;
+    margin: 20px 0 0 15px; }
